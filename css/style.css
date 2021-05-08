@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("/img/bg.jpg");
+    min-height: 100vh;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 140px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+#board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 90vmin;
+    height: 100vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+/*vmin is the one which is less among vh and vw*/
+
+.head{
+    background: linear-gradient(violet,rebeccapurple);
+    border: 2px solid white;
+    border-radius: 20%;
+    transform: scale(1.02);
+}
+
+.snake{
+    background: linear-gradient(white, purple);
+    border-radius: 12px;
+    border: .25vmin solid white;
+}
+
+.food{
+    background: linear-gradient(red, orange);
+    border-radius: 50%; 
+    border: .25vmin solid white;
+}
