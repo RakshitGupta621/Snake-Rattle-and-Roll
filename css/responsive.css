@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 1238px) {
+    #board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 80vmin;
+    height: 90vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+} 
+}
+
+@media screen and (max-width: 1000px) {
+    #board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 70vmin;
+    height: 80vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+} 
+}
+
+@media screen and (max-width: 876px) {
+    #board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 60vmin;
+    height: 70vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+} 
+}
+
+@media screen and (max-width: 748px) {
+    #board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 50vmin;
+    height: 65vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+} 
+}
+
+@media screen and (max-width: 622px) {
+    #board{
+    background: linear-gradient(orange,green, yellowgreen,yellow);
+    width: 40vmin;
+    height: 65vmin;
+    border: 2px solid burlywood;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+} 
+}
